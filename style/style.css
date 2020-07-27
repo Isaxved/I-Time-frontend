@@ -1,0 +1,128 @@
+@font-face {
+   font-family: LCDN; /* Имя шрифта */
+   src: url(../fonts/a_LCDNova.otf); /* Путь к файлу со шрифтом */
+  }
+@font-face {
+   font-family: PriveLogo; /* Имя шрифта */
+   src: url(../fonts/PriveLogoCheck-Regular.otf); /* Путь к файлу со шрифтом */
+ }
+@font-face {
+   font-family: PriveX; /* Имя шрифта */
+   src: url(../fonts/PriveX-Regular.otf); /* Путь к файлу со шрифтом */
+}
+
+body{
+   font-family: PriveX;
+}
+
+/* ----------------header--------------- */
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.main_category ul{
+   list-style: none;
+   display: flex;
+   padding: 0;
+}
+.main_category li{
+   margin-right: 15px;
+}
+.main_category li:last-child{
+   margin-right: 0px;
+}
+.main_category li a{
+color: #000;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 3.75px;
+}
+.main_logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 150px;
+}
+header img{
+   width: 120px;
+}
+.top-links ul{
+   list-style: none;
+   display: flex;
+   padding: 0;
+}
+.top-links li{
+   margin-right: 15px;
+}
+.top-links li:last-child{
+   margin-right: 0px;
+}
+.top-links li a{
+   color: #000000;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 3.75px;
+}
+/* -------------header-------------- */
+.all_category{
+   text-transform: uppercase;
+   margin-bottom: 60px;
+}
+.all_category span{
+   font-weight: bold;
+}
+.all_category ul{
+   list-style: none;
+   padding: 0;
+}
+.all_category li a{
+   color:#000;
+}
+.all_designers{
+   text-transform: uppercase;
+}
+.all_designers span{
+   font-weight: bold;
+}
+.all_designers ul{
+   list-style: none;
+   padding: 0;
+}
+.all_designers li a{
+   color:#121212;
+}
+.product_item{
+   overflow: hidden;
+   position: relative;
+   border:solid 1px #000;
+   background-color:#f5f5f7;
+}
+.product_item img{
+   width: 100%;
+}
+.product_item_desc{
+   position: absolute;
+   top: 15px;
+   left: 15px;
+}
+.sorting{
+   text-align: right;
+   /* text-transform: uppercase; */
+}
+.sorting ul{
+   list-style: none;
+   padding: 0;
+   text-align: right;
+}
+.sorting li a{
+   color:#000;
+}
+/* --------------footer------------ */
+footer{
+   border-top: solid 1px #000;
+}
